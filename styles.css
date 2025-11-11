@@ -5,6 +5,9 @@
 }
 body{
     font-family: "Outfit", sans-serif;
+    position: relative ;
+    min-height: 100vh;
+    text-align: center;
 }
 .container{
     background: hsl(212, 45%, 89%);
@@ -17,14 +20,14 @@ body{
     flex-direction: column;
 }
 .qrcode-body{
-    background-color: hsl(0, 0%, 100%);
+    background-color:white ;
     width: 220px;
     height: 350px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
 }
 .qr-image{
     padding: 10px;
@@ -37,23 +40,25 @@ body{
     border-radius: 8px;
 } 
 .text-body{
-    padding: 8px 10px;
+    padding: 4px 8px;
 }
 .text-body h2{
     font-size: 16px;
     text-align: center;
-    padding-bottom: 12px;
-    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    color: #343D4B;
 }
 .text-body p{
     font-size: 12px;
-    color:hsl(218, 44%, 22%);
+    opacity: 0.7;
+    color:gray;
 }
 .attribution{
-    margin-top: 10px;
+    position: absolute; 
+    bottom: 0;
 }
 .name a{
-    color: black;
+    color: rgb(97, 82, 82);
     text-decoration: none;
 }
 
